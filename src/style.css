@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-size: 14px;
+  line-height: 1;
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.level {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px 10px 10px 10px;
+}
+
+.level-0 {
+  padding-left: 0;
+}
+
+.level-1 {
+  padding-left: 30px;
+}
+
+.level-2 {
+  padding-left: 60px;
+}
+
+.level-3 {
+  padding-left: 90px;
+}
+
+.level-4 {
+  padding-left: 120px;
+}
+
+.level-5 {
+  padding-left: 150px;
+}
+
+.operator {
+  display: flex;
+  width: 400px;
+  padding: 10px;
+  background: #f582a7;
+  margin-bottom: 10px;
+}
+
+.operand {
+  background: #711a75;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #ff0081;
+  color: white;
+  border: none;
+  -webkit-appearance: none;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+  appearance: none;
+}
+
+button:last-child {
+  margin-right: 0;
+}
